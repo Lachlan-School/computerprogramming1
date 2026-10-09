@@ -5,13 +5,14 @@
 [Link to Source Code](https://github.com/Lachlan-School/computerprogramming1/blob/main/src/Calculator/Calculator.pde)
 
 ## Overview
-This is a simple calculator with numbers 0-9 and a set of operator buttons +, -, ÷, x, ^, CLR, x², √, =, ., and ! 
+This is a simple calculator with numbers 0-9 and a set of operator buttons +, -, ÷, x, ^, CLR, x², √, =, ., and !.
+It is functional with all numbers, +, -, ÷, x, ., and = using the keyboard.
 
 ## Current Status
 Working:
 - Factorial Button (!)
 - Exponent Button (^)
-- Square Root Button (√)
+- Square Root Button (√ )
 
 Still in progress:
 - Text display can only hold 8 numbers before overflowing.
@@ -24,18 +25,15 @@ The folder for the project is Calculator, and the primary .pde file is Calculato
 
 ## Controls
 Mouse:
-You can use the mouse to hover over the buttons, and 
+You can use the mouse to hover over the buttons, and when clicked, they will 
 Keyboard:
-[List keys that currently work and what they do.
-Identify planned controls as not yet implemented.]
-
+You can type the numbers 0-9 on keypad or keyboard, and type + on keypad only, type / for divide, type enter or = to perform calculation, use * on keypad or x for multiply, and use . for decimal.
 ## Project Files
 [Identify the main sketch and other tabs or assets
 you will upload.]
 
 ## Testing
-[Record one test: actions, expected result,
-and actual result.]
+Factorial took testing
 
 ## Next Step
 [Name the specific behavior you will build or fix next.]
