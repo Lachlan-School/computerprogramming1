@@ -215,7 +215,7 @@ void handleEvent(String val, boolean isNum) {
         r = sqrt(r);
         displayVal = str(r);
       }
-    } else if (val == ("²")) {
+    } else if (val == ("x²")) {
       if (left == true) {
         l = pow(l, 2);
         displayVal = str(l);
