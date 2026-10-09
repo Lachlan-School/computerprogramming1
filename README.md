@@ -5,13 +5,13 @@
 [Link to Source Code](https://github.com/Lachlan-School/computerprogramming1/blob/main/src/Calculator/Calculator.pde)
 
 ## Overview
-This is a simple calculator with numbers 0-9 and a set of operator buttons +, -, ÷, x, ^, CLR
+This is a simple calculator with numbers 0-9 and a set of operator buttons +, -, ÷, x, ^, CLR, x², √, =, ., and ! 
 
 ## Current Status
 Working:
-- Factorial Button
-- Exponent Button
-- Square Root Button
+- Factorial Button (!)
+- Exponent Button (^)
+- Square Root Button (√)
 
 Still in progress:
 - Text display can only hold 8 numbers before overflowing.
