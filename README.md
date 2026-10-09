@@ -5,8 +5,7 @@
 [Link to Source Code](https://github.com/Lachlan-School/computerprogramming1/blob/main/src/Calculator/Calculator.pde)
 
 ## Overview
-[Write 2–3 sentences explaining what you are building
-and what a user can do with it.]
+This is a simple calculator with numbers 0-9 and a set of operator buttons +, -, ÷, x, ^, CLR
 
 ## Current Status
 Working:
