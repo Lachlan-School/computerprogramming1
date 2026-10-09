@@ -2,6 +2,8 @@
 
 ![Calculator](https://github.com/Lachlan-School/computerprogramming1/blob/main/images/Calc01.png?raw=true)
 
+[Link to Source Code](https://github.com/Lachlan-School/computerprogramming1/blob/main/src/Calculator/Calculator.pde)
+
 ## Overview
 [Write 2–3 sentences explaining what you are building
 and what a user can do with it.]
