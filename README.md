@@ -10,23 +10,22 @@ and what a user can do with it.]
 
 ## Current Status
 Working:
-- [A feature you have tested]
-- [Another feature you have tested]
+- Factorial Button
+- Exponent Button
+- Square Root Button
 
 Still in progress:
-- [A requirement you are finishing]
+- Text display can only hold 8 numbers before overflowing.
 
 ## How to Run
 Built with Processing.
-Processing version: [Your version]
+Processing version: 4.0.1
 
-[After the project files are uploaded, identify the
-project folder and main .pde file to open and run.]
+The folder for the project is Calculator, and the primary .pde file is Calculator.pde.
 
 ## Controls
 Mouse:
-[Explain how to use the buttons.]
-
+You can use the mouse to hover over the buttons, and 
 Keyboard:
 [List keys that currently work and what they do.
 Identify planned controls as not yet implemented.]
