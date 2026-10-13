@@ -4,7 +4,7 @@ Button[] numButtons = new Button[10];
 Button[] opButtons = new Button [12];
 float l, r, result;
 String op, displayVal;
-boolean left, newEntry;
+boolean left, newEntry, shift;
 int factorial, tempInt;
 
 void setup() {
@@ -18,7 +18,7 @@ void setup() {
   left = true;
   newEntry = true;
   tempInt = 0;
-
+  shift = false;
   //The number buttons for my calculator.
   numButtons[0] = new Button(35, 90, 1, "0");
   numButtons[1] = new Button(50, 90, 2, "1");
@@ -124,37 +124,45 @@ void toggleSign() {
 }
 void keyPressed() {
   println("keyCode:" + keyCode);
-  for (int i = 0; i < numButtons.length; i++) {
-    if (keyCode == 48 + i || keyCode == 96 + i) {
-      handleEvent(numButtons[i].val, true);
-    }
+  
+  if (keyCode == 16) {
+    shift = true;
   }
-  if (keyCode == 16 && keyCode == 61 || keyCode == 107) {
+  if (shift == true && keyCode == 61 || keyCode == 107) {
     handleEvent("+", false);
+    shift = false;
   } else {
     if (keyCode == 45 || keyCode == 109 ) {
       handleEvent("-", false);
+      shift = false;
     } else {
-      if (keyCode == 16 && keyCode == 56 || keyCode == 106 || keyCode == 88) {
+      if (shift == true && keyCode == 56 || keyCode == 106 || keyCode == 88) {
         handleEvent("x", false);
+        shift = false;
       } else {
         if (keyCode == 47 || keyCode == 111 ) {
           handleEvent("÷", false);
+          shift = false;
         } else {
-          if (keyCode == 16 && keyCode == 54 ) {
+          if (shift == true && keyCode == 54 ) {
             handleEvent("^", false);
+            shift = false;
           } else {
-            if (keyCode == 8 ) {
+            if (keyCode == 8 || shift == true && keyCode == 110) {
               handleEvent("CLR", false);
+              shift = false;
             } else {
               if (keyCode == 61 || keyCode == 10 ) {
                 handleEvent("=", false);
+                shift = false;
               } else {
                 if (keyCode == 46 || keyCode == 110 ) {
                   handleEvent(".", false);
+                  shift = false;
                 } else {
-                  if (keyCode == 16 && keyCode == 48 ) {
+                  if (shift == true && keyCode == 49 ) {
                     handleEvent("!", false);
+                    shift = false;
                   }
                 }
               }
@@ -162,6 +170,12 @@ void keyPressed() {
           }
         }
       }
+    }
+  }
+  for (int i = 0; i < numButtons.length; i++) {
+    if (keyCode == 48 + i || keyCode == 96 + i) {
+      handleEvent(numButtons[i].val, true);
+      shift = false;
     }
   }
 }
