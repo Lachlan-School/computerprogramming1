@@ -13,7 +13,7 @@ Working:
 - Factorial Button (!)
 - Exponent Button (^)
 - Square Root Button (√ )
-
+- Shift Key
 Still in progress:
 - Text display can only hold 8 numbers before overflowing.
 
@@ -27,7 +27,7 @@ The folder for the project is Calculator, and the primary .pde file is Calculato
 Mouse:
 You can use the mouse to hover over the buttons, and when clicked, they will 
 Keyboard:
-You can type the numbers 0-9 on keypad or keyboard, and type + on keypad only, type / for divide, type enter or = to perform calculation, use * on keypad or x for multiply, and use . for decimal.
+You can type the numbers 0-9 on keypad or keyboard, and type + on keypad only, type / for divide, type enter or = to perform calculation, use * on keypad or x for multiply, and use . for decimal. You can use the shift key to access other numbers (For example the + sign above the = sign on the primary keyboard) but you need to press shift before you press the number.
 ## Project Files
 The primary file is the calculator.pde file, but there is a supporting file button.pde which makes the buttons function correctly.
 
