@@ -14,6 +14,7 @@ Working:
 - Exponent Button (^)
 - Square Root Button (√ )
 - Shift Key
+- 
 Still in progress:
 - Text display can only hold 8 numbers before overflowing.
 
