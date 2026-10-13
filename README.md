@@ -29,11 +29,10 @@ You can use the mouse to hover over the buttons, and when clicked, they will
 Keyboard:
 You can type the numbers 0-9 on keypad or keyboard, and type + on keypad only, type / for divide, type enter or = to perform calculation, use * on keypad or x for multiply, and use . for decimal.
 ## Project Files
-[Identify the main sketch and other tabs or assets
-you will upload.]
+The primary file is the calculator.pde file, but there is a supporting file button.pde which makes the buttons function correctly.
 
 ## Testing
-Factorial took testing
+I tested factoral, it only works with up to around 10 until it begins to overflow.
 
 ## Next Step
-[Name the specific behavior you will build or fix next.]
+My goal for the future is to make the overflow shrink the text size to make it fit in the display.
